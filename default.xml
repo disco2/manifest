@@ -3,6 +3,13 @@
 
   <remote  name="aosp"
            fetch="https://android.googlesource.com/" />
+           
+  <remote  name="yashar"
+           fetch="https://github.com/yashade2001/" />
+           
+  <remote  name="disco2"
+           fetch="https://github.com/disco2/" />
+           
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
            sync-j="4" />
@@ -458,5 +465,7 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+
+  <project path="vendor" name="nexus-lollipop-preview-vendor" remote="yashar" revision="l-preview" />
 
 </manifest>
