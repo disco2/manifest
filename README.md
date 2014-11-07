@@ -22,7 +22,7 @@ Install the Repository
 
 Enter the following to download make executable the "repo" binary:
 
-    curl https://dl-ssl.google.com/dl/googlesource/git-repo/repo > ~/bin/repo
+    curl https://storage.googleapis.com/git-repo-downloads/repo > ~/bin/repo
 
     chmod a+x ~/bin/repo
 
@@ -38,7 +38,7 @@ Repositories:
 
 Before you continue --> run this in the terminal
 ----------------------------------------
-    repo init -u git://github.com/disco2/platform_manifest.git -b android-5.0.0_r2 && repo sync -f
+    repo init -u git://github.com/disco2/platform_manifest.git -b lollipop && repo sync -c
 
 *PLEASE NOTE THAT YOU MUST USE THE -f flag when repo syncing/initializing if you want to sync with our default -j4 setup as android.googlesource seems to like to reject your requests if you set your -jflag too high. 
 if you wish to avoid this issue run it repo sync -j1 otherwise -f (force) is reccomended so it will resync the repos it gets error codes on. Thank you and have a nice day.*
@@ -61,7 +61,7 @@ Enter the number of the build you want to start and press enter
 
 Build the Code:
 
-    make -j8
+    make lokum
 
 ---------------
 
