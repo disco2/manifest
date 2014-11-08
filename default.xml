@@ -70,7 +70,7 @@
   <project path="external/checkpolicy" name="platform/external/checkpolicy" groups="pdk" />
   <project path="external/chromium-libpac" name="platform/external/chromium-libpac" />
   <project path="external/chromium-trace" name="platform/external/chromium-trace" groups="pdk" />
-  <project path="external/chromium_org" name="platform/external/chromium_org" />
+  
   <project path="external/chromium_org/sdch/open-vcdiff" name="platform/external/chromium_org/sdch/open-vcdiff" />
   <project path="external/chromium_org/testing/gtest" name="platform/external/chromium_org/testing/gtest" />
   <project path="external/chromium_org/third_party/WebKit" name="platform/external/chromium_org/third_party/WebKit" />
@@ -473,6 +473,6 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="disco2" revision="lollipop" />
   <project path="device/lge/mako" name="device_lge_mako" remote="disco2" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="disco2" revision="lollipop" />
-  
+  <project path="external/chromium_org" name="external_chromium-org" remote="disco2" revision="lollipop" />
 
 </manifest>
