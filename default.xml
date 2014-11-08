@@ -21,7 +21,7 @@
   <project path="art" name="platform/art" groups="pdk" />
   <project path="bionic" name="platform/bionic" groups="pdk" />
   <project path="bootable/bootloader/legacy" name="platform/bootable/bootloader/legacy" groups="pdk-cw-fs" />
-  <project path="bootable/recovery" name="platform/bootable/recovery" groups="pdk" />
+  
   <project path="cts" name="platform/cts" groups="cts,pdk-cw-fs" />
   <project path="dalvik" name="platform/dalvik" groups="pdk-cw-fs" />
   <!-- project path="developers/build" name="platform/developers/build" />
@@ -474,5 +474,6 @@
   <project path="device/lge/mako" name="device_lge_mako" remote="disco2" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="disco2" revision="lollipop" />
   <project path="external/chromium_org" name="external_chromium-org" remote="disco2" revision="lollipop" />
+  <project path="bootable/recovery" name="bootable_recovery" remote="disco2" revision="twrp-kk" />
 
 </manifest>
