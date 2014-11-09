@@ -8,7 +8,14 @@
            fetch="https://github.com/yashade2001/" />
            
   <remote  name="disco2"
-           fetch="https://github.com/disco2/" />
+           
+          
+          fetch="https://github.com/disco2/"
+          
+          />
+  
+  <remote name="cm"
+          fetch="https://github.com/CyanogenMod/" />
            
   <default revision="refs/tags/android-5.0.0_r2"
            remote="aosp"
