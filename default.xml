@@ -8,11 +8,7 @@
            fetch="https://github.com/yashade2001/" />
            
   <remote  name="disco2"
-           
-          
-          fetch="https://github.com/disco2/"
-          
-          />
+           fetch="https://github.com/disco2/" />
   
   <remote name="cm"
           fetch="https://github.com/CyanogenMod/" />
@@ -473,7 +469,7 @@
   <!-- Our repos -->
 
   <project path="vendor" name="nexus-lollipop-preview-vendor" remote="yashar" revision="l-preview" />
-  <project path="vendor/nomaam" name="vendor_nomaam" remote="disco2" revision="lollipop" />
+  <project path="vendor/disco" name="vendor_disco" remote="disco2" revision="lollipop" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="disco2" revision="lollipop" />
   <project path="frameworks/base" name="frameworks_base" remote="disco2" revision="lollipop" />
   <project path="device/asus/flo" name="device_asus_flo" remote="disco2" revision="lollipop" />
