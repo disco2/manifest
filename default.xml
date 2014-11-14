@@ -468,7 +468,7 @@
 
   <!-- Our repos -->
 
-  <project path="vendor" name="mako-deb-l-preview-blobs" remote="yashar" revision="l-preview" />
+  
   <project path="vendor" name="hammerhead-flo-5.0-blobs" remote="yashar" revision="lollipop" />
   <project path="vendor/disco" name="vendor_disco" remote="disco2" revision="lollipop" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="disco2" revision="lollipop" />
