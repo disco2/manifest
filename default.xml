@@ -10,9 +10,7 @@
   <remote  name="disco2"
            fetch="https://github.com/disco2/" />
   
-  <remote name="cm"
-          fetch="https://github.com/CyanogenMod/" />
-           
+
   <default revision="refs/tags/android-5.0.0_r6"
            remote="aosp"
            sync-j="4" />
