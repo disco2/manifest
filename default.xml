@@ -13,7 +13,7 @@
 
   <default revision="refs/tags/android-5.0.0_r5"
            remote="aosp"
-           sync-j="4" />
+           sync-j="6" />
 
   <project path="build" name="build" remote="disco2" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -49,7 +49,7 @@
   <project path="device/google/atv" name="device/google/atv" groups="device,fugu" />
   <project path="device/asus/flo-kernel" name="device/asus/flo-kernel" groups="device,flo" clone-depth="1" />
   <project path="device/lge/hammerhead-kernel" name="device/lge/hammerhead-kernel" groups="device,hammerhead" clone-depth="1" />
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" />
+  <!-- project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" clone-depth="1" / -->
   <project path="device/sample" name="device/sample" groups="pdk" />
   <project path="docs/source.android.com" name="platform/docs/source.android.com" groups="pdk-cw-fs" />
   <project path="external/aac" name="platform/external/aac" groups="pdk" />
@@ -477,5 +477,7 @@
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="disco2" revision="lollipop" />
   <project path="external/chromium_org" name="external_chromium-org" remote="disco2" revision="lollipop" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="disco2" revision="lollipop" />
-
+ 
+  <!-- Nexus 4 prebuilt kernel -->
+  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="disco2" revision="lollipop" />
 </manifest>
