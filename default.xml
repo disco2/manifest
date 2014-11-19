@@ -479,5 +479,5 @@
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="disco2" revision="lollipop" />
  
   <!-- Nexus 4 prebuilt kernel -->
-  <project path="device/lge/mako-kernel" name="device/lge/mako-kernel" groups="device,mako" remote="disco2" revision="lollipop" />
+  <project path="device/lge/mako-kernel" name="mako-kernel" groups="device,mako" remote="disco2" revision="lollipop" />
 </manifest>
