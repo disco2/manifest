@@ -9,11 +9,14 @@
            
   <remote  name="disco2"
            fetch="https://github.com/disco2/" />
+
+<remote  name="cm"
+           fetch="https://github.com/cyanogenmod/" />
   
 
   <default revision="refs/tags/android-5.0.0_r5"
            remote="aosp"
-           sync-j="6" />
+           sync-j="4" />
 
   <project path="build" name="build" remote="disco2" revision="lollipop" >
     <copyfile src="core/root.mk" dest="Makefile" />
@@ -463,10 +466,10 @@
   <project path="tools/studio/translation" name="platform/tools/studio/translation" groups="notdefault,tools" />
   <project path="tools/swt" name="platform/tools/swt" groups="notdefault,tools" />
   <project path="tools/tradefederation" name="platform/tools/tradefederation" groups="notdefault,tradefed" />
+  <project path="external/chromium_org" name="platform/external/chromium_org" />
 
   <!-- Our repos -->
-
-  
+ 
   <project path="vendor" name="hammerhead-flo-5.0-blobs" remote="yashar" revision="lollipop" />
   <project path="vendor/disco" name="vendor_disco" remote="disco2" revision="lollipop" />
   <project path="packages/apps/Settings" name="packages_apps_Settings" remote="disco2" revision="lollipop" />
@@ -475,9 +478,8 @@
   <project path="device/lge/hammerhead" name="device_lge_hammerhead" remote="disco2" revision="lollipop" />
   <project path="device/lge/mako" name="device_lge_mako" remote="disco2" revision="lollipop" />
   <project path="packages/inputmethods/LatinIME" name="packages_inputmethods_LatinIME" remote="disco2" revision="lollipop" />
-  <project path="external/chromium_org" name="external_chromium-org" remote="disco2" revision="lollipop" />
   <project path="packages/apps/Dialer" name="packages_apps_Dialer" remote="disco2" revision="lollipop" />
  
   <!-- Nexus 4 prebuilt kernel -->
-  <project path="device/lge/mako-kernel" name="mako-kernel" groups="device,mako" remote="disco2" revision="lollipop" />
+  <project path="device/lge/mako-kernel" name="device_lge_mako-kernel" groups="device,mako" remote="disco2" revision="lollipop" />
 </manifest>
